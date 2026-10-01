@@ -17,6 +17,10 @@ The public `cristovao-dev/mywebsite` repository publishes
 [this site](https://cristovao-dev.github.io/mywebsite/) from the `main`
 branch and root folder.
 
+Asset URLs in `index.html` include a release version to prevent cached styles
+and scripts from mixing with updated HTML. Bump that version when publishing
+changes to those assets.
+
 The projects section is a curated selection of 12 repositories from
 `cristovao-dev` as of September 2026. Private repositories appear as short
 previews without source links. Do not automatically add every repository when
