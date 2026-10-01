@@ -2,6 +2,11 @@
 
 A lightweight portfolio presenting skills, GitHub project previews, and playable browser games.
 
+The Studio design uses warm mustard, forest, and wine surfaces, bold typography,
+and playable games near the top. The current QA role is visible in the introduction;
+professional history, skills, and all qualifications remain available below the
+project collection. Earlier roles and certification details expand on demand.
+
 ## Local preview
 
 Open `index.html` in a browser. No build step is required.

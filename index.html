@@ -3,345 +3,121 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta
-      name="description"
-      content="Cristovao Freitas is a QA engineer focused on test automation and Salesforce CRM testing, with a Java development background and personal apps and games."
-    >
-    <title>Cristovao Freitas | Projects & Games</title>
+    <meta name="description" content="Cristovao Freitas is a QA engineer focused on Salesforce CRM and test automation, with a Java development background and personal apps and games.">
+    <meta name="theme-color" content="#efbf58">
+    <meta property="og:title" content="Cristovao Freitas | QA Engineer, Apps & Games">
+    <meta property="og:description" content="I test software. I build worlds. Explore my professional background, personal apps, and playable browser games.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.cristovao-dev.com/">
+    <meta property="og:image" content="https://www.cristovao-dev.com/assets/profile.jpg">
+    <meta property="og:image:alt" content="Portrait of Cristovao Freitas">
+    <title>Cristovao Freitas | QA Engineer, Apps & Games</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Cristovao Freitas home">
-        <span class="brand-mark">CF</span>
-        <span>Cristovao Freitas</span>
-      </a>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="#experience">Experience</a>
-        <a href="#credentials">Credentials</a>
-        <a href="#skills">Skills</a>
-        <a href="#apps">Projects</a>
-        <a href="#games">Games</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">QA Engineer · Salesforce CRM Administrator · Game Designer</p>
-          <h1>I'm a QA Engineer with a Developer background</h1>
-          <p class="hero-subline">I leverage test automation to improve the quality of Salesforce CRM.</p>
-          <p class="hero-text">
-            My day-to-day is focused on improving the Quality of Salesforce CRM with Test Automation, drawing upon my
-            Salesforce Administrator and Certified Tester skills. Outside work, I keep learning through AI-assisted coding
-            by building apps useful to me and exploring game ideas that I would like to play.
-          </p>
-          <div class="hero-actions" aria-label="Profile links">
-            <a class="button primary" href="https://www.linkedin.com/in/cristovaofreitas/" target="_blank" rel="noreferrer">
-              LinkedIn
-            </a>
-            <a class="button" href="https://github.com/cristovao-dev" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell" id="top">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Cristovao Freitas home">Cristovao Freitas</a>
+        <nav class="top-nav" aria-label="Primary navigation">
+          <a href="#games">Games</a><a href="#apps">Projects</a><a href="#about">About me</a><a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+          <h1 id="hero-title">I test software.<br>I build worlds.</h1>
+          <div class="hero-copy">
+            <p>QA Engineer by profession. Apps and games through curiosity. A developer’s background connects the two.</p>
+            <a class="hero-role" href="#experience">QA Engineer at Natixis<br>Salesforce CRM &amp; test automation</a>
           </div>
-        </div>
-        <aside class="profile-panel" aria-label="Profile summary">
-          <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Cristovao Freitas">
-          <div>
-            <span class="stat-label">QA Automation</span>
-            <strong>LEAPWORK, Robot Framework, data-driven testing</strong>
+        </section>
+        <section id="games" class="games-section" aria-labelledby="games-title">
+          <div class="section-intro">
+            <h2 id="games-title" class="section-note">A selection of things I’m building and exploring</h2>
+            <a class="text-link" href="https://github.com/cristovao-dev" target="_blank" rel="noopener noreferrer" aria-label="Visit GitHub (opens in a new tab)">Visit GitHub <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a>
           </div>
-          <div>
-            <span class="stat-label">Salesforce CRM</span>
-            <strong>Testing informed by Salesforce Administrator skills</strong>
-          </div>
-          <div>
-            <span class="stat-label">Developer Background</span>
-            <strong>Professional Java development and personal apps and games</strong>
-          </div>
-        </aside>
-      </section>
-
-      <section class="highlights" aria-label="Recruiter highlights">
-        <article class="highlight-card">
-          <span class="highlight-value">5+ years</span>
-          <span class="highlight-label">QA at Natixis</span>
-        </article>
-        <article class="highlight-card">
-          <span class="highlight-value">Automation</span>
-          <span class="highlight-label">LEAPWORK and Robot Framework</span>
-        </article>
-        <article class="highlight-card">
-          <span class="highlight-value">Salesforce</span>
-          <span class="highlight-label">CRM testing focus</span>
-        </article>
-        <article class="highlight-card">
-          <span class="highlight-value">ISTQB CTFL</span>
-          <span class="highlight-label">Certified tester</span>
-        </article>
-        <article class="highlight-card">
-          <span class="highlight-value">Certified</span>
-          <span class="highlight-label">Salesforce credentials</span>
-        </article>
-      </section>
-
-      <section class="section intro-section" aria-labelledby="about-title">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2 id="about-title">A bit more about me</h2>
-        </div>
-        <p class="intro-text">
-          I started out as a Software Developer before moving into Quality Assurance. Since then, I’ve worked on Manual
-          Testing, Regression Testing, Creating the Testing Scaffold and Testing Automation in Scrum teams. Today, I use
-          Test automation to improve Salesforce CRM workflows, drawing on my Salesforce Administrator skills and Certified
-          Tester training. Outside work, I keep learning by building apps I can use and exploring game ideas I’d like to
-          play, often with help from local LLMs and widely used online models.
-        </p>
-      </section>
-
-      <section id="experience" class="section" aria-labelledby="experience-title">
-        <div class="section-heading">
-          <p class="eyebrow">Experience</p>
-          <h2 id="experience-title">Professional background</h2>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div>
-              <p class="timeline-date">Oct 2020 - Present</p>
-              <h3>Quality Assurance Engineer</h3>
-              <p class="timeline-company">Natixis in Portugal - Porto, Portugal</p>
-              <p>Full-time QA role working with Scrum and Jira.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div>
-              <p class="timeline-date">Aug 2019 - Sep 2020</p>
-              <h3>Junior Quality Assurance Engineer</h3>
-              <p class="timeline-company">Natixis in Portugal - Porto, Portugal</p>
-              <p>Contract QA role using Scrum and Jira.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div>
-              <p class="timeline-date">Feb 2019 - Jun 2019</p>
-              <h3>Junior Quality Assurance Engineer</h3>
-              <p class="timeline-company">SPMS, EPE - Servicos Partilhados do Ministerio da Saude - Porto, Portugal</p>
-              <p>Contract QA role in a public-sector services environment.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div>
-              <p class="timeline-date">Feb 2019 - Sep 2020</p>
-              <h3>Consultant</h3>
-              <p class="timeline-company">ALTER SOLUTIONS PORTUGAL</p>
-              <p>Worked as a consultant for SPMS and Natixis in Portugal.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div>
-              <p class="timeline-date">Sep 2017 - Dec 2018</p>
-              <h3>Software Developer</h3>
-              <p class="timeline-company">Altice Labs - Aveiro, Portugal</p>
-              <p>Contract software development role.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div>
-              <p class="timeline-date">Sep 2017 - Jan 2019</p>
-              <h3>Consultor Informatico</h3>
-              <p class="timeline-company">PRIME IT CONSULTING</p>
-              <p>Worked as a consultant in Altice Labs.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="credentials" class="section" aria-labelledby="credentials-title">
-        <div class="section-heading">
-          <p class="eyebrow">Habilitations</p>
-          <h2 id="credentials-title">Certifications, education, and languages</h2>
-        </div>
-
-        <div class="credentials-layout">
-          <div>
-            <h3 class="subheading">Licenses and certifications</h3>
-            <div class="credential-grid">
-              <article class="credential-card">
-                <span class="tag accent">Salesforce</span>
-                <h3>Salesforce Certified Agentforce Specialist</h3>
-                <p>Issued Jul 2025 - Credential ID 6344787</p>
-                <p>Skills: Salesforce, Artificial Intelligence (AI)</p>
-              </article>
-              <article class="credential-card">
-                <span class="tag accent">Salesforce</span>
-                <h3>Salesforce Certified AI Associate</h3>
-                <p>Issued Mar 2025 - Credential ID 5966019</p>
-                <p>Skills: Salesforce, Artificial Intelligence (AI)</p>
-              </article>
-              <article class="credential-card">
-                <span class="tag accent">Salesforce</span>
-                <h3>Salesforce Certified Administrator</h3>
-                <p>Issued May 2024 - Credential ID 4291759</p>
-                <p>Skills: Salesforce administration, Salesforce</p>
-              </article>
-              <article class="credential-card">
-                <span class="tag accent">Testing</span>
-                <h3>Certified Tester Foundation Level</h3>
-                <p>ASTQB - ISTQB in the U.S. - Issued May 2024</p>
-                <p>Credential ID 24-CTFL-01841-USA</p>
-              </article>
-              <article class="credential-card">
-                <span class="tag accent">Salesforce</span>
-                <h3>Salesforce Certified Associate</h3>
-                <p>Issued May 2023 - Credential ID 344920</p>
-                <p>Skills: Salesforce, Salesforce administration</p>
-              </article>
-              <article class="credential-card">
-                <span class="tag accent">Language</span>
-                <h3>EFSET 70 Advanced (CEFR C1)</h3>
-                <p>EF - Issued May 2015</p>
-                <p>Skill: English</p>
-              </article>
-            </div>
-          </div>
-
-          <aside class="side-stack">
-            <article class="credential-card">
-              <span class="tag warning">Unfinished</span>
-              <h3>Universidade de Aveiro</h3>
-              <p>Bachelor's Degree, Engenharia Informatica</p>
-              <p>2012 - unfinished</p>
-              <p>Activities: Nucleo de Estudantes de Informatica.</p>
+          <div class="game-grid">
+            <article class="game-card undead-game">
+              <div class="game-copy"><h3>Undead<br>Frontier</h3><p>Defend Dustfall Pass through 20 waves, or lead the undead in an eight-raid assault. Includes player-made maps.</p></div>
+              <div class="game-footer"><span>Browser game · Early build</span><a href="https://undead-frontier.cristovao-dev.com/" target="_blank" rel="noopener noreferrer" aria-label="Play Undead Frontier (opens in a new tab)">Play game <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div>
             </article>
-            <article class="credential-card">
-              <span class="tag accent">Languages</span>
-              <h3>English</h3>
-              <p>Native or bilingual proficiency</p>
-              <h3>Portuguese</h3>
-              <p>Native or bilingual proficiency</p>
+            <article class="game-card accord-game">
+              <div class="game-copy"><h3>Shattered<br>Accord</h3><p>Command a nation in a grand strategy campaign shaped by doctrine, industry, diplomacy, and conflict.</p></div>
+              <div class="game-footer"><span>Browser game · Early build</span><a href="https://shattered-accord.cristovao-dev.com/" target="_blank" rel="noopener noreferrer" aria-label="Play Shattered Accord (opens in a new tab)">Play game <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div>
             </article>
-          </aside>
-        </div>
-      </section>
-
-      <section id="skills" class="section" aria-labelledby="skills-title">
-        <div class="section-heading">
-          <p class="eyebrow">Skills</p>
-          <h2 id="skills-title">What I work with</h2>
-        </div>
-        <div class="skills-grid">
-          <article class="skill-card">
-            <h3>QA Automation</h3>
-            <p>Test automation is a current focus. I use LEAPWORK, Robot Framework, and data-driven approaches.</p>
-            <ul>
-              <li>LEAPWORK and Robot Framework</li>
-              <li>Low-code test automation</li>
-              <li>Data-driven tests</li>
-            </ul>
-          </article>
-          <article class="skill-card">
-            <h3>Quality Assurance</h3>
-            <p>My QA work includes manual testing, regression checks, and test design in Scrum teams.</p>
-            <ul>
-              <li>Test design and execution</li>
-              <li>Regression testing</li>
-              <li>Scrum and Jira</li>
-            </ul>
-          </article>
-          <article class="skill-card">
-            <h3>Salesforce CRM Testing</h3>
-            <p>I test Salesforce CRM workflows and draw on my Salesforce Administrator knowledge of the platform.</p>
-            <ul>
-              <li>CRM workflow testing</li>
-              <li>Salesforce Administrator skills</li>
-              <li>AI Associate and Agentforce Specialist</li>
-            </ul>
-          </article>
-          <article class="skill-card">
-            <h3>Software development and learning</h3>
-            <p>My development background is in Java. Outside work, I build practical apps and games and use AI-assisted coding to keep improving.</p>
-            <ul>
-              <li>Java software development</li>
-              <li>Personal projects in TypeScript, JavaScript, Python, Kotlin, and GDScript</li>
-              <li>Local LLMs in LM Studio and widely used online models</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="apps" class="section apps-section" aria-labelledby="apps-title">
-        <div class="section-heading">
-          <p class="eyebrow">GitHub projects</p>
-          <h2 id="apps-title">Things I have built and explored</h2>
-          <p class="section-lede">A curated selection of 12 GitHub projects. Private projects have short previews; the public repository links to its source.</p>
-        </div>
-        <div class="app-toolbar" role="group" aria-label="Project filters">
-          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All <span>12</span></button>
-          <button class="filter-button" type="button" data-filter="game" aria-pressed="false">Games</button>
-          <button class="filter-button" type="button" data-filter="app" aria-pressed="false">Apps &amp; tools</button>
-          <button class="filter-button" type="button" data-filter="private" aria-pressed="false">Private previews</button>
-          <button class="filter-button" type="button" data-filter="public" aria-pressed="false">Public source</button>
-        </div>
-        <div id="repo-status" class="repo-status" role="status">Showing 12 projects.</div>
-        <div id="repo-grid" class="repo-grid" aria-live="polite"></div>
-      </section>
-
-      <section id="games" class="section games-section" aria-labelledby="games-title">
-        <div class="section-heading">
-          <p class="eyebrow">Play online</p>
-          <h2 id="games-title">Games you can try now</h2>
-          <p class="section-lede">Two browser games in active development. Each opens in a new tab.</p>
-        </div>
-        <div class="game-grid">
-          <article class="game-card undead-game">
-            <div class="game-art" aria-hidden="true"><span>01 / SURVIVE</span><strong>UF</strong></div>
-            <div class="game-content">
-              <span class="tag warning">Early build</span>
-              <h3>Undead Frontier</h3>
-              <p>Defend Dustfall Pass through 20 waves, or lead the undead in an eight-raid assault. Includes player-made maps.</p>
-              <a class="button primary" href="https://undead-frontier.cristovao-dev.com/" target="_blank" rel="noopener noreferrer" aria-label="Play Undead Frontier (opens in a new tab)">Play Undead Frontier <span aria-hidden="true">↗</span></a>
+          </div>
+        </section>
+        <section id="apps" class="section projects-section" aria-labelledby="apps-title">
+          <div class="section-heading"><h2 id="apps-title">More things I’ve made.</h2><p>A curated collection of apps, tools, and game experiments. Private projects are previews; public source links to GitHub.</p></div>
+          <div class="project-toolbar">
+            <div class="app-toolbar" role="group" aria-label="Project filters">
+              <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All <span>12</span></button>
+              <button class="filter-button" type="button" data-filter="game" aria-pressed="false">Games</button>
+              <button class="filter-button" type="button" data-filter="app" aria-pressed="false">Apps &amp; tools</button>
+              <button class="filter-button" type="button" data-filter="private" aria-pressed="false">Private previews</button>
+              <button class="filter-button" type="button" data-filter="public" aria-pressed="false">Public source</button>
             </div>
-          </article>
-          <article class="game-card accord-game">
-            <div class="game-art" aria-hidden="true"><span>02 / COMMAND</span><strong>SA</strong></div>
-            <div class="game-content">
-              <span class="tag warning">Early build</span>
-              <h3>Shattered Accord</h3>
-              <p>Command a nation in a grand strategy campaign shaped by doctrine, industry, diplomacy, and conflict.</p>
-              <a class="button primary" href="https://shattered-accord.cristovao-dev.com/" target="_blank" rel="noopener noreferrer" aria-label="Play Shattered Accord (opens in a new tab)">Play Shattered Accord <span aria-hidden="true">↗</span></a>
+            <p id="repo-status" class="repo-status" role="status" aria-live="polite">Showing 12 projects.</p>
+          </div>
+          <div id="repo-grid" class="repo-grid"></div>
+          <noscript><p class="noscript-note">Enable JavaScript to browse the project collection, or <a href="https://github.com/cristovao-dev" target="_blank" rel="noopener noreferrer">visit my GitHub profile</a>.</p></noscript>
+        </section>
+        <section id="about" class="section about-section" aria-labelledby="about-title">
+          <div class="about-intro">
+            <figure class="portrait"><img src="assets/profile.jpg" alt="Portrait of Cristovao Freitas" width="400" height="400" loading="lazy" decoding="async"><figcaption>Cristovao Freitas · Porto, Portugal</figcaption></figure>
+            <div class="about-copy">
+              <h2 id="about-title">The engineer<br>behind the projects.</h2>
+              <p>I started in software development before moving into Quality Assurance. Today, I use test automation to improve Salesforce CRM workflows, drawing on my Salesforce Administrator skills and Certified Tester training.</p>
+              <p>Outside work, I build apps I can use and explore game ideas I’d like to play, often with help from local LLMs and widely used online models.</p>
+              <p class="professional-proof"><a href="#credentials">Salesforce Certified Administrator · ISTQB CTFL</a></p>
+              <div class="about-links"><a class="text-link" href="#experience">Professional background <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-down"></use></svg></a><a class="text-link" href="https://www.linkedin.com/in/cristovaofreitas/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)">LinkedIn <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div>
             </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact-section" aria-labelledby="contact-title">
-        <div class="section-heading">
-          <p class="eyebrow">Contact</p>
-          <h2 id="contact-title">Let's connect</h2>
-        </div>
-        <div class="contact-actions">
-          <a class="button primary" href="https://www.linkedin.com/in/cristovaofreitas/" target="_blank" rel="noreferrer">
-            View LinkedIn
-          </a>
-          <a class="button" href="https://github.com/cristovao-dev" target="_blank" rel="noreferrer">
-            View GitHub
-          </a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <span>Built for GitHub Pages.</span>
-      <span>(c) <span id="year"></span> Cristovao Freitas</span>
-    </footer>
-
-    <script src="script.js"></script>
+          </div>
+        </section>
+        <section id="experience" class="section experience-section" aria-labelledby="experience-title">
+          <div class="section-heading"><h2 id="experience-title">Professional background.</h2></div>
+          <article class="experience-current"><p class="timeline-date">Oct 2020 – Present</p><div><h3>Quality Assurance Engineer</h3><p class="timeline-company">Natixis in Portugal · Porto, Portugal</p><p>Full-time QA role in Scrum teams, using Jira. My work includes manual testing, regression testing, test design, creating the testing scaffold, and test automation for Salesforce CRM.</p></div></article>
+          <details class="earlier-experience">
+            <summary>Earlier roles <span>2017–2020</span></summary>
+            <div class="timeline">
+              <article class="timeline-item"><p class="timeline-date">Aug 2019 – Sep 2020</p><div><h3>Junior Quality Assurance Engineer</h3><p class="timeline-company">Natixis in Portugal · Porto, Portugal</p><p>Contract QA role using Scrum and Jira.</p></div></article>
+              <article class="timeline-item"><p class="timeline-date">Feb 2019 – Jun 2019</p><div><h3>Junior Quality Assurance Engineer</h3><p class="timeline-company">SPMS, EPE · Servicos Partilhados do Ministerio da Saude · Porto, Portugal</p><p>Contract QA role in a public-sector services environment.</p></div></article>
+              <article class="timeline-item"><p class="timeline-date">Feb 2019 – Sep 2020</p><div><h3>Consultant</h3><p class="timeline-company">ALTER SOLUTIONS PORTUGAL</p><p>Worked as a consultant for SPMS and Natixis in Portugal.</p></div></article>
+              <article class="timeline-item"><p class="timeline-date">Sep 2017 – Dec 2018</p><div><h3>Software Developer</h3><p class="timeline-company">Altice Labs · Aveiro, Portugal</p><p>Contract software development role.</p></div></article>
+              <article class="timeline-item"><p class="timeline-date">Sep 2017 – Jan 2019</p><div><h3>Consultor Informatico</h3><p class="timeline-company">PRIME IT CONSULTING</p><p>Worked as a consultant in Altice Labs.</p></div></article>
+            </div>
+          </details>
+        </section>
+        <section id="skills" class="section skills-section" aria-labelledby="skills-title">
+          <div class="section-heading"><h2 id="skills-title">What I work with.</h2></div>
+          <div class="skills-grid">
+            <article class="skill-block"><h3>QA automation</h3><p>LEAPWORK, Robot Framework, low-code test automation, and data-driven testing.</p></article>
+            <article class="skill-block"><h3>Quality assurance</h3><p>Manual testing, test design and execution, regression testing, Scrum, and Jira.</p></article>
+            <article class="skill-block"><h3>Salesforce CRM</h3><p>CRM workflow testing, informed by Salesforce Administrator knowledge, AI Associate training, and Agentforce Specialist skills.</p></article>
+            <article class="skill-block"><h3>Development &amp; learning</h3><p>A professional Java background, with personal projects in TypeScript, JavaScript, Python, Kotlin, and GDScript. I also explore local LLMs in LM Studio and widely used online models.</p></article>
+          </div>
+        </section>
+        <section id="credentials" class="section credentials-section" aria-labelledby="credentials-title">
+          <div class="section-heading"><h2 id="credentials-title">Qualifications.</h2><p>Certifications, education, and languages.</p></div>
+          <div class="credential-list" aria-label="Licenses and certifications">
+            <details class="credential"><summary>Salesforce Certified Agentforce Specialist</summary><div><p>Issued Jul 2025 · Credential ID 6344787</p><p>Skills: Salesforce, Artificial Intelligence (AI)</p></div></details>
+            <details class="credential"><summary>Salesforce Certified AI Associate</summary><div><p>Issued Mar 2025 · Credential ID 5966019</p><p>Skills: Salesforce, Artificial Intelligence (AI)</p></div></details>
+            <details class="credential"><summary>Salesforce Certified Administrator</summary><div><p>Issued May 2024 · Credential ID 4291759</p><p>Skills: Salesforce administration, Salesforce</p></div></details>
+            <details class="credential"><summary>Certified Tester Foundation Level</summary><div><p>ASTQB – ISTQB in the U.S. · Issued May 2024</p><p>Credential ID 24-CTFL-01841-USA</p></div></details>
+            <details class="credential"><summary>Salesforce Certified Associate</summary><div><p>Issued May 2023 · Credential ID 344920</p><p>Skills: Salesforce, Salesforce administration</p></div></details>
+            <details class="credential"><summary>EFSET 70 Advanced (CEFR C1)</summary><div><p>EF · Issued May 2015</p><p>Skill: English</p></div></details>
+          </div>
+          <div class="education-languages"><article><h3>Universidade de Aveiro</h3><p>Bachelor’s studies in Engenharia Informatica · 2012 · Degree not completed.</p><p>Activities: Nucleo de Estudantes de Informatica.</p></article><article><h3>Languages</h3><p>English · Native or bilingual proficiency</p><p>Portuguese · Native or bilingual proficiency</p></article></div>
+        </section>
+        <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+          <h2 id="contact-title">Let’s connect.</h2>
+          <div class="contact-actions"><a class="contact-link" href="https://www.linkedin.com/in/cristovaofreitas/" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn (opens in a new tab)">LinkedIn <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a><a class="text-link" href="https://github.com/cristovao-dev" target="_blank" rel="noopener noreferrer" aria-label="View GitHub (opens in a new tab)">GitHub <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div>
+        </section>
+      </main>
+      <footer class="site-footer"><span>© <span id="year">2026</span> Cristovao Freitas · Porto, Portugal</span><span>QA / Apps / Games</span><a href="#top">Back to top</a></footer>
+    </div>
   </body>
 </html>

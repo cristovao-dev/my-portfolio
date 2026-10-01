@@ -111,6 +111,7 @@ function createProjectCard(project) {
     link.href = project.url;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
+    link.setAttribute("aria-label", `${project.name} source (opens in a new tab)`);
     link.textContent = project.name;
     heading.append(link);
   } else {
