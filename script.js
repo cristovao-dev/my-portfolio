@@ -2,86 +2,86 @@
 // Private repositories are intentionally shown as previews without source links.
 const projects = [
   {
-    name: "WorldWar-StrategyGame",
-    description: "A TypeScript strategy game project.",
+    name: "web-strategy-game-worldatwar",
+    description: "A solo, turn-based strategy game about planning, economy and diplomacy, played in the browser.",
     language: "TypeScript",
     category: "game",
     private: true
   },
   {
-    name: "TD_Red-Dead",
-    description: "A tower defense game project.",
+    name: "web-td-undead-frontier",
+    description: "A pixel-art tower defense game for the browser: place your defenses and hold out through the waves.",
     language: "TypeScript",
     category: "game",
     private: true
   },
   {
-    name: "Cozy-Pixel-Farm-Game",
-    description: "A cozy pixel farm game project.",
+    name: "web-farm-game-multiplayer",
+    description: "A cozy pixel-art farming game for the browser, to enjoy alone or with friends.",
     language: "JavaScript",
     category: "game",
     private: true
   },
   {
-    name: "Thornhaven",
-    description: "A city simulation game project.",
+    name: "godot-thornhaven",
+    description: "A medieval village-building game made with Godot: grow a small community through the seasons.",
     language: "GDScript",
     category: "game",
     private: true
   },
   {
-    name: "financesapp-vibecoded",
-    description: "A personal finance app project.",
+    name: "my-finance-app",
+    description: "A private, offline-first app for keeping track of my finances and planning ahead.",
     language: "Kotlin",
     category: "app",
     private: true
   },
   {
-    name: "comicbook-app",
-    description: "A comic book app experiment.",
+    name: "web-comicbook-app",
+    description: "A reading app that makes it easier to organize and read comic books.",
     language: "TypeScript",
     category: "app",
     private: true
   },
   {
     name: "web-fpsgame",
-    description: "A first-person browser game experiment.",
+    description: "A fast-paced, low-poly first-person arena game for the browser, solo or co-op.",
     language: "JavaScript",
     category: "game",
     private: true
   },
   {
-    name: "mywebsite",
-    description: "A public HTML website repository.",
+    name: "my-portfolio",
+    description: "The source code of this portfolio website.",
     language: "HTML",
     category: "app",
     private: false,
-    url: "https://github.com/cristovao-dev/mywebsite"
+    url: "https://github.com/cristovao-dev/my-portfolio"
   },
   {
-    name: "chatapp-vibecoded",
-    description: "An AI chat app with desktop and web versions.",
+    name: "py-ai-chat-hub",
+    description: "A chat app for talking with AI assistants, with desktop and web versions.",
     language: "Python",
     category: "app",
     private: true
   },
   {
-    name: "notetaking-vibecoded",
-    description: "A note-taking app project.",
+    name: "web-notes-app-enhanced",
+    description: "A note-taking app that also lets you record or import voice notes and turn them into text.",
     language: "JavaScript",
     category: "app",
     private: true
   },
   {
     name: "local-ai-transcriptor",
-    description: "A local AI transcription project.",
+    description: "A small tool that turns speech into text, running entirely on my own computer.",
     language: "Python",
     category: "app",
     private: true
   },
   {
-    name: "noteapp-playground",
-    description: "A playground for small apps and local AI experiments.",
+    name: "playground-hub",
+    description: "A sandbox for small apps and experiments with AI models running on my own computer.",
     language: "Python",
     category: "app",
     private: true

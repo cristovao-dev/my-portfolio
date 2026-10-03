@@ -13,8 +13,8 @@ Open `index.html` in a browser. No build step is required.
 
 ## GitHub Pages
 
-The public `cristovao-dev/mywebsite` repository publishes
-[this site](https://cristovao-dev.github.io/mywebsite/) from the `main`
+The public `cristovao-dev/my-portfolio` repository publishes
+[this site](https://cristovao-dev.github.io/my-portfolio/) from the `main`
 branch and root folder.
 
 Asset URLs in `index.html` include a release version to prevent cached styles
